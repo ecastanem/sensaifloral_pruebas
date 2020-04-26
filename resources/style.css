@@ -7,12 +7,17 @@ div.top_page{
     position: sticky;
     top: 0;
     width: 100%;
+    
 }
 
 div.middle_page{
     top: 3rem;
+    font-size: 1.5rem;
 }
 
+.navbar{
+    font-size: 1.5rem;
+}
 
 nav a{
     color: #ada497;
@@ -27,11 +32,9 @@ nav a{
 
 body{
     background-color: #f2ebe3;
-}
-
-body footer{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 100%;
+    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Handlee', cursive;*/
+    font-size: 1rem;
     font-weight: normal;
   }
 
@@ -117,6 +120,7 @@ img.card-img-top{
     padding: 0.5rem;
     text-align: center;
     color: #f2ebe3;
+    font-size: 1.25rem;
 }
 
 img.pie_pagina{
@@ -127,4 +131,8 @@ img.pie_pagina{
 
 div.pie_pagina_icon{
     align-items: center;
+}
+
+h4, h5{
+    font-size: 1.75rem;
 }
