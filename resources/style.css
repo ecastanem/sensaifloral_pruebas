@@ -1,5 +1,5 @@
 div{
-    /*border: 1px solid black;*/
+    /*border: 0.5px solid black;*/
 }
 
 div.top_page{
@@ -136,3 +136,37 @@ div.pie_pagina_icon{
 h4, h5{
     font-size: 1.75rem;
 }
+
+div.boutique{
+    align-items: center;
+    text-align: center;
+    color: #556e3f ;
+}
+
+.jumbotron.insignia{
+    background-image: url("./images/arreglos/insignia/Rosas.jpeg");
+    background-size: cover;
+    color:#802c4c;
+    opacity: 0.75;
+}
+
+.jumbotron.insignia:hover {
+    background-color: #802c4c;
+    opacity: 1;
+  }
+
+  .jumbotron.temporada{
+    background-image: url("./images/arreglos/temporada/Tulipanes\ rojos\ y\ amarillos.jpeg");
+    background-size: cover;
+    color: #802c4c;
+    opacity: 0.75;
+}
+
+.jumbotron.temporada:hover {
+    background-color: #802c4c;
+    opacity: 1;
+  }
+
+  h4.boutique{
+      font-size: 2.5rem;
+  }
